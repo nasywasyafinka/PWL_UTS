@@ -1,0 +1,122 @@
+header {
+    padding: 10px 10px;
+    background-color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* Aligns items vertically in the middle */
+}
+
+.logo img {
+    height: 130px;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+nav ul li a i {
+    font-size: 20px;
+    color: black;
+}
+
+/* Optional: Add hover effect for icons */
+nav ul li a:hover {
+    color: gray;
+}
+
+nav ul li a i:hover {
+    color: gray;
+}
+
+.catalog-container {
+    padding: 30px;
+}
+
+.catalog-container h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 48px; /* Increase font size */
+    font-weight: bold; /* Optional: Make the text bolder */
+    color: #333; /* Optional: Adjust the text color */
+}
+
+.catalog-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns layout */
+    gap: 20px;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width:100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 30px;
+    text-align: center;
+}
+
+.card-body h5 {
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+.card-body p {
+    font-size: 20px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 25px;
+    color: #000;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.btn {
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #333;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #f8f8f8;
+}
