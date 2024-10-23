@@ -43,8 +43,15 @@ nav ul li a i:hover {
     color: gray;
 }
 
+body {
+    background-color: #b7a683; /* Warna latar belakang abu-abu sangat muda untuk dashboard */
+}
+
 .catalog-container {
     padding: 30px;
+    background-color: #b7a683; /* Latar belakang putih untuk konten dashboard */
+    border-radius: 8px; /* Sudut melengkung untuk tampilan lebih halus */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Bayangan halus untuk memberi kedalaman */
 }
 
 .catalog-container h1 {

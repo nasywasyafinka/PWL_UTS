@@ -9,7 +9,7 @@
         <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#">Category</a></li>
-            <li><a href="#">About Me</a></li>
+            <li><a href="{{ url('/about') }}">About Me</a></li>
             <li><a href="#"><i class="fas fa-search"></i></a></li>
             {{-- <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li> --}}
 

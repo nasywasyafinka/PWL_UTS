@@ -30,6 +30,10 @@ Route::group(['prefix' => 'dashboard'], function () {
     Route::get('/', [DashboardController::class, 'index']);                          //menampilkan laman awal user
 
 });
+Route::get('/about', function () {
+    return view('dashboard.about');
+});
+
 
 
 
